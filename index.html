@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ecffe1">
+    <meta name="description" content="STATIC makes everyday streetwear for the signal beneath the noise. Explore the first collection.">
+    <title>STATIC® — Cut through the noise</title>
+    <link rel="icon" href="assets/static-mark.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="announcement">
+      <span>Independent streetwear</span>
+      <span class="announcement-center">SIGNAL / 001</span>
+      <span>Made to be noticed</span>
+    </div>
+
+    <header class="site-header">
+      <a class="brand brand-signature" href="#top" aria-label="STATIC home">
+        <img src="assets/static-signature.png" alt="STATIC handwritten signature with STATIC above">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#collection">Collection <span>01</span></a>
+        <a href="#palette">Colourway</a>
+        <a href="#story">Our signal</a>
+        <a href="#footer">Contact</a>
+      </nav>
+      <button class="bag-button" type="button" aria-label="Open shopping bag">
+        Bag <span class="bag-count" aria-live="polite">0</span>
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4.5 6.5h11l1 10h-13l1-10Z"/><path d="M7.5 7V5a2.5 2.5 0 0 1 5 0v2"/></svg>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> Drop 001 <span>—</span> The everyday uniform</div>
+          <h1 id="hero-title">Cut through<br>the <span class="signal-glitch">noise.<span class="signal-glitch-copy signal-glitch-copy-a" aria-hidden="true">noise.</span><span class="signal-glitch-copy signal-glitch-copy-b" aria-hidden="true">noise.</span></span></h1>
+          <p>For the ones who move to their own frequency. A first signal from STATIC.</p>
+          <a class="button button-dark" href="#collection">Explore the collection <span aria-hidden="true">↗</span></a>
+          <div class="hero-footnote"><span>01 / 03</span><span>Hoodies. Headwear. Tees.</span></div>
+        </div>
+        <div class="hero-art" aria-label="Photo of the STATIC heavyweight hoodie">
+          <div class="hero-art-top"><span>STATIC® / GOODS</span><span>Signal no. 001</span></div>
+          <div class="hero-stamp" aria-hidden="true"><img src="assets/static-main-mark.png" alt=""></div>
+          <img class="hero-hoodie garment-photo" src="assets/product-hoodie-mask.png" data-mask="assets/product-hoodie-mask.png" data-color="#0A0A0A" alt="Static black heavyweight STATIC hoodie from the brandbook">
+          <div class="hero-art-bottom"><span>Heavyweight / 01</span><span>Designed for repeat wear <b>↗</b></span></div>
+        </div>
+        <div class="hero-vertical" aria-hidden="true">STATIC / STAY IN YOUR FREQUENCY</div>
+      </section>
+
+      <div class="ticker" aria-label="STATIC: Stay in your frequency">
+        <div class="ticker-track" aria-hidden="true">
+          <span>STAY IN YOUR FREQUENCY</span><img class="ticker-symbol" src="assets/static-main-mark.png" alt="">
+          <span>STAY IN YOUR FREQUENCY</span><img class="ticker-symbol" src="assets/static-main-mark.png" alt="">
+          <span>STAY IN YOUR FREQUENCY</span><img class="ticker-symbol" src="assets/static-main-mark.png" alt="">
+          <span>STAY IN YOUR FREQUENCY</span><img class="ticker-symbol" src="assets/static-main-mark.png" alt="">
+        </div>
+      </div>
+
+      <section class="palette-section" id="palette" aria-labelledby="palette-title">
+        <div class="palette-heading">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Colour frequency / 001</p>
+          <div class="palette-intro">
+            <h2 id="palette-title">Colour with<br>a <em>signal.</em></h2>
+            <p>Pick a colour to retune the whole page and preview every piece in the drop.</p>
+          </div>
+        </div>
+        <div class="palette-grid" role="group" aria-label="Choose a colour theme for the page and collection">
+          <button class="palette-card swatch-paper" type="button" aria-pressed="false" aria-label="Apply Signal paper to the page and all clothes" data-color="#ECFFE1" data-color-name="Signal paper">
+            <span class="palette-index">01 / BASE</span>
+            <div class="palette-label"><h3>Signal paper</h3><span>#ECFFE1</span></div>
+          </button>
+          <button class="palette-card swatch-black" type="button" aria-pressed="false" aria-label="Apply Static black to the page and all clothes" data-color="#0A0A0A" data-color-name="Static black">
+            <span class="palette-index">02 / INK</span>
+            <div class="palette-label"><h3>Static black</h3><span>#0A0A0A</span></div>
+          </button>
+          <button class="palette-card swatch-forest" type="button" aria-pressed="false" aria-label="Apply Forest signal to the page and all clothes" data-color="#00AB2E" data-color-name="Forest signal">
+            <span class="palette-index">03 / DEEP</span>
+            <div class="palette-label"><h3>Forest signal</h3><span>#00AB2E</span></div>
+          </button>
+          <button class="palette-card swatch-olive" type="button" aria-pressed="false" aria-label="Apply Deep frequency to the page and all clothes" data-color="#2A3400" data-color-name="Deep frequency">
+            <span class="palette-index">04 / DEEPER</span>
+            <div class="palette-label"><h3>Deep frequency</h3><span>#2A3400</span></div>
+          </button>
+          <button class="palette-card swatch-electric" type="button" aria-pressed="false" aria-label="Apply Electric lime to the page and all clothes" data-color="#75FF5B" data-color-name="Electric lime">
+            <span class="palette-index">05 / CURRENT</span>
+            <div class="palette-label"><h3>Electric lime</h3><span>#75FF5B</span></div>
+          </button>
+          <button class="palette-card swatch-acid" type="button" aria-pressed="false" aria-label="Apply Acid green to the page and all clothes" data-color="#8AFF3E" data-color-name="Acid green">
+            <span class="palette-index">06 / HIGH</span>
+            <div class="palette-label"><h3>Acid green</h3><span>#8AFF3E</span></div>
+          </button>
+          <button class="palette-card swatch-yellow" type="button" aria-pressed="false" aria-label="Apply Signal yellow to the page and all clothes" data-color="#F9F608" data-color-name="Signal yellow">
+            <span class="palette-index">07 / VOLTAGE</span>
+            <div class="palette-label"><h3>Signal yellow</h3><span>#F9F608</span></div>
+          </button>
+        </div>
+        <p class="palette-note"><span>Colour is a signal.</span> Keep the noise down. Turn the volume up.</p>
+      </section>
+
+      <section class="collection section-pad" id="collection" aria-labelledby="collection-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-dot"></span> First transmission / 001</p>
+            <h2 id="collection-title">The essentials<span>.</span></h2>
+          </div>
+          <p class="section-aside">A small rotation.<br>Built to get worn in.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-visual visual-hoodie">
+              <span class="product-index">01 / OUTER SIGNAL</span>
+              <img class="garment garment-photo" src="assets/product-hoodie-mask.png" data-mask="assets/product-hoodie-mask.png" alt="Black heavyweight STATIC hoodie from the brandbook">
+              <span class="color-chip"><i></i> <span class="color-name">Static black</span></span>
+            </div>
+            <div class="product-meta">
+              <div><h3>Signal hoodie</h3><p>Everyday layers / Drop 001</p></div>
+              <span class="product-price">€ 89</span>
+            </div>
+            <fieldset class="color-options">
+              <legend>Color <span class="selected-color">Static black</span></legend>
+              <div class="color-swatches" role="radiogroup" aria-label="Select color for Signal hoodie">
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Signal paper" title="Signal paper" data-color="#ECFFE1" data-color-name="Signal paper" style="--swatch-color:#ECFFE1"></button>
+                <button class="color-swatch is-selected" type="button" role="radio" aria-checked="true" aria-label="Static black" title="Static black" data-color="#0A0A0A" data-color-name="Static black" style="--swatch-color:#0A0A0A"></button>
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Forest signal" title="Forest signal" data-color="#00AB2E" data-color-name="Forest signal" style="--swatch-color:#00AB2E"></button>
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Deep frequency" title="Deep frequency" data-color="#2A3400" data-color-name="Deep frequency" style="--swatch-color:#2A3400"></button>
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Electric lime" title="Electric lime" data-color="#75FF5B" data-color-name="Electric lime" style="--swatch-color:#75FF5B"></button>
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Acid green" title="Acid green" data-color="#8AFF3E" data-color-name="Acid green" style="--swatch-color:#8AFF3E"></button>
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Signal yellow" title="Signal yellow" data-color="#F9F608" data-color-name="Signal yellow" style="--swatch-color:#F9F608"></button>
+              </div>
+            </fieldset>
+            <button class="add-button" type="button" data-product="hoodie">
+              <span>Add to bag</span><span aria-hidden="true">+</span>
+            </button>
+          </article>
+
+          <article class="product-card">
+            <div class="product-visual visual-cap">
+              <span class="product-index">02 / HEADWEAR</span>
+              <img class="garment garment-photo" src="assets/product-cap-mask.png" data-mask="assets/product-cap-mask.png" alt="Black STATIC baseball cap from the brandbook">
+              <span class="color-chip"><i></i> <span class="color-name">Static black</span></span>
+            </div>
+            <div class="product-meta">
+              <div><h3>Frequency cap</h3><p>Headwear / Drop 001</p></div>
+              <span class="product-price">€ 39</span>
+            </div>
+            <fieldset class="color-options">
+              <legend>Color <span class="selected-color">Static black</span></legend>
+              <div class="color-swatches" role="radiogroup" aria-label="Select color for Frequency cap">
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Signal paper" title="Signal paper" data-color="#ECFFE1" data-color-name="Signal paper" style="--swatch-color:#ECFFE1"></button>
+                <button class="color-swatch is-selected" type="button" role="radio" aria-checked="true" aria-label="Static black" title="Static black" data-color="#0A0A0A" data-color-name="Static black" style="--swatch-color:#0A0A0A"></button>
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Forest signal" title="Forest signal" data-color="#00AB2E" data-color-name="Forest signal" style="--swatch-color:#00AB2E"></button>
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Deep frequency" title="Deep frequency" data-color="#2A3400" data-color-name="Deep frequency" style="--swatch-color:#2A3400"></button>
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Electric lime" title="Electric lime" data-color="#75FF5B" data-color-name="Electric lime" style="--swatch-color:#75FF5B"></button>
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Acid green" title="Acid green" data-color="#8AFF3E" data-color-name="Acid green" style="--swatch-color:#8AFF3E"></button>
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Signal yellow" title="Signal yellow" data-color="#F9F608" data-color-name="Signal yellow" style="--swatch-color:#F9F608"></button>
+              </div>
+            </fieldset>
+            <button class="add-button" type="button" data-product="cap">
+              <span>Add to bag</span><span aria-hidden="true">+</span>
+            </button>
+          </article>
+
+          <article class="product-card">
+            <div class="product-visual visual-tee">
+              <span class="product-index">03 / DAILY UNIFORM</span>
+              <img class="garment garment-photo" src="assets/product-tee-mask.png" data-mask="assets/product-tee-mask.png" alt="Black STATIC T-shirt from the brandbook">
+              <span class="color-chip"><i></i> <span class="color-name">Signal paper</span></span>
+            </div>
+            <div class="product-meta">
+              <div><h3>Static tee</h3><p>Daily uniform / Drop 001</p></div>
+              <span class="product-price">€ 45</span>
+            </div>
+            <fieldset class="color-options">
+              <legend>Color <span class="selected-color">Signal paper</span></legend>
+              <div class="color-swatches" role="radiogroup" aria-label="Select color for Static tee">
+                <button class="color-swatch is-selected" type="button" role="radio" aria-checked="true" aria-label="Signal paper" title="Signal paper" data-color="#ECFFE1" data-color-name="Signal paper" style="--swatch-color:#ECFFE1"></button>
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Static black" title="Static black" data-color="#0A0A0A" data-color-name="Static black" style="--swatch-color:#0A0A0A"></button>
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Forest signal" title="Forest signal" data-color="#00AB2E" data-color-name="Forest signal" style="--swatch-color:#00AB2E"></button>
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Deep frequency" title="Deep frequency" data-color="#2A3400" data-color-name="Deep frequency" style="--swatch-color:#2A3400"></button>
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Electric lime" title="Electric lime" data-color="#75FF5B" data-color-name="Electric lime" style="--swatch-color:#75FF5B"></button>
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Acid green" title="Acid green" data-color="#8AFF3E" data-color-name="Acid green" style="--swatch-color:#8AFF3E"></button>
+                <button class="color-swatch" type="button" role="radio" aria-checked="false" aria-label="Signal yellow" title="Signal yellow" data-color="#F9F608" data-color-name="Signal yellow" style="--swatch-color:#F9F608"></button>
+              </div>
+            </fieldset>
+            <button class="add-button" type="button" data-product="tee">
+              <span>Add to bag</span><span aria-hidden="true">+</span>
+            </button>
+          </article>
+        </div>
+        <p class="collection-note"><span>Note / 001</span> Product details and pricing shown as a concept preview.</p>
+      </section>
+
+      <section class="campaign section-pad" aria-labelledby="campaign-title">
+        <div class="campaign-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Visual interference / 001</p>
+            <h2 id="campaign-title">Out of<br><span>frequency.</span></h2>
+          </div>
+          <p>Found in the STATIC brandbook. A little grit, a little green, and nothing to tune out.</p>
+        </div>
+        <div class="campaign-grid">
+          <figure class="campaign-photo campaign-lookbook">
+            <img src="assets/static-lookbook.jpg" alt="Grainy streetwear photograph from the STATIC brandbook, featuring an oversized hoodie">
+            <span class="campaign-image-index">FIG. 01 / IN MOTION</span>
+            <figcaption>Uniform for the unfiltered.</figcaption>
+          </figure>
+          <figure class="campaign-photo campaign-moodboard">
+            <img src="assets/static-color-moodboard.jpg" alt="Green, yellow and black graffiti and street photography from the STATIC color moodboard">
+            <span class="campaign-image-index">FIG. 02 / COLOR SIGNAL</span>
+            <figcaption>Color pulled from the noise.</figcaption>
+          </figure>
+        </div>
+        <div class="campaign-footer"><span>STATIC® / FIELD NOTES</span><span>Stay tuned to yourself <b>↗</b></span></div>
+      </section>
+
+      <section class="manifesto" id="story" aria-labelledby="story-title">
+        <div class="manifesto-photo">
+          <img src="assets/static-process.jpg" alt="Hand-drawn STATIC logo and early hoodie, cap and T-shirt sketches">
+          <span class="photo-caption">FROM THE SKETCHBOOK / 001</span>
+          <span class="photo-number">FIG. 01</span>
+        </div>
+        <div class="manifesto-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> A little less ordinary</p>
+          <h2 id="story-title">Find your<br>own <em>signal.</em></h2>
+          <p class="manifesto-description">STATIC started with a mark, a blank page and the feeling that getting dressed should sound like you. This is everyday streetwear for people who never quite tune in.</p>
+          <a class="text-link" href="#collection">Wear the first signal <span aria-hidden="true">↗</span></a>
+          <img class="manifesto-mark" src="assets/static-mark.png" alt="" aria-hidden="true">
+          <span class="manifesto-coordinate">INDEPENDENT BY NATURE<br>STATIC® / 001</span>
+        </div>
+      </section>
+
+      <section class="closing section-pad" aria-labelledby="closing-title">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> End transmission</p>
+        <h2 id="closing-title">Keep your<br><span>frequency.</span></h2>
+        <a class="button button-light" href="#collection">Shop the first drop <span aria-hidden="true">↗</span></a>
+        <span class="closing-mark" aria-hidden="true">S.</span>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="footer">
+      <div class="footer-top">
+        <a class="brand footer-brand" href="#top" aria-label="STATIC, back to top">
+          <img src="assets/static-wordmark.png" alt="STATIC">
+        </a>
+        <p>Independent streetwear.<br>Stay in your frequency.</p>
+        <a class="back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+      <div class="footer-bottom">
+        <span>© STATIC® / 001</span>
+        <span>DESIGNED TO CUT THROUGH THE NOISE</span>
+        <span>INDEPENDENT / ALWAYS</span>
+      </div>
+    </footer>
+
+    <dialog class="cart-dialog" aria-labelledby="cart-title">
+      <div class="cart-heading">
+        <div><p class="eyebrow"><span class="eyebrow-dot"></span> Your selection</p><h2 id="cart-title">The bag <span class="bag-count">0</span></h2></div>
+        <button class="cart-close" type="button" aria-label="Close shopping bag">×</button>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-empty">Your bag is quiet. Add a little signal.</div>
+      <div class="cart-footer">
+        <div class="cart-total"><span>Subtotal</span><strong>€ 0</strong></div>
+        <p>Concept preview — checkout is not available.</p>
+        <button class="button button-dark cart-continue" type="button">Continue exploring <span aria-hidden="true">↗</span></button>
+      </div>
+    </dialog>
+    <div class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
